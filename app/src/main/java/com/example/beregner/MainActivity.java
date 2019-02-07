@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mAEditText = findViewById(R.id.a);
-        mBEditText = findViewById(R.id.b);
-        mResultsTextView = findViewById(R.id.results);
+        mAEditText = findViewById(R.id.aEditText);
+        mBEditText = findViewById(R.id.bEditText);
+        mResultsTextView = findViewById(R.id.resultsEditText);
         calc = new Calculator();
 
     }

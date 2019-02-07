@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/a"
+        android:id="@+id/aEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -16,7 +16,7 @@
         android:padding="16dp" />
 
     <EditText
-        android:id="@+id/b"
+        android:id="@+id/bEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -25,7 +25,7 @@
         android:padding="16dp" />
 
     <TextView
-        android:id="@+id/results"
+        android:id="@+id/resultsEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
