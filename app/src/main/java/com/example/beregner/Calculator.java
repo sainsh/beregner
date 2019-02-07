@@ -16,6 +16,7 @@ public class Calculator {
     }
 
     public double divide(Editable a, Editable b) {
+
         return Double.parseDouble(a.toString()) / Double.parseDouble(b.toString());
     }
 }

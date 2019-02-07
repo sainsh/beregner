@@ -2,6 +2,7 @@ package com.example.beregner;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -25,18 +26,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void plus(View view) {
-        mResultsTextView.setText(String.valueOf(calc.plus(mAEditText.getText(),mBEditText.getText())));
+        if (!TextUtils.isEmpty(mAEditText.getText())||!TextUtils.isEmpty(mBEditText.getText())) {
+            mResultsTextView.setText(String.valueOf(calc.plus(mAEditText.getText(), mBEditText.getText())));
+        }
     }
 
     public void minus(View view) {
-        mResultsTextView.setText(String.valueOf(calc.minus(mAEditText.getText(),mBEditText.getText())));
+        if (!TextUtils.isEmpty(mAEditText.getText())||!TextUtils.isEmpty(mBEditText.getText())) {
+            mResultsTextView.setText(String.valueOf(calc.minus(mAEditText.getText(), mBEditText.getText())));
+        }
     }
 
     public void mult(View view) {
-        mResultsTextView.setText(String.valueOf(calc.mult(mAEditText.getText(),mBEditText.getText())));
+        if (!TextUtils.isEmpty(mAEditText.getText())||!TextUtils.isEmpty(mBEditText.getText())) {
+
+            mResultsTextView.setText(String.valueOf(calc.mult(mAEditText.getText(), mBEditText.getText())));
+        }
     }
 
     public void divide(View view) {
-        mResultsTextView.setText(String.valueOf(calc.divide(mAEditText.getText(),mBEditText.getText())));
+        if (!TextUtils.isEmpty(mAEditText.getText())||!TextUtils.isEmpty(mBEditText.getText())) {
+            mResultsTextView.setText(String.valueOf(calc.divide(mAEditText.getText(), mBEditText.getText())));
+        }
+
     }
 }
