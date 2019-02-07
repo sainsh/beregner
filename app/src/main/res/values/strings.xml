@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">beregner</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="mult">*</string>
+    <string name="divide">/</string>
+    <string name="a">input a</string>
+    <string name="b">input b</string>
+    <string name="results">results</string>
+</resources>

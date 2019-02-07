@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/a"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/b"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/results"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:text="@string/plus"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="plus"/>
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:text="@string/minus"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="minus"/>
+
+    <Button
+        android:id="@+id/mult"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:text="@string/mult"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="mult"/>
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:text="@string/divide"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="divide"/>
+</LinearLayout>
+
+</LinearLayout>
