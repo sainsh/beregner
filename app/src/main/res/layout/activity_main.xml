@@ -3,73 +3,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/a"
-        android:padding="16dp"
         android:layout_marginTop="16dp"
-        android:inputType="numberDecimal"/>
+        android:hint="@string/a"
+        android:inputType="numberDecimal"
+        android:padding="16dp" />
 
     <EditText
         android:id="@+id/b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/b"
-        android:padding="16dp"
         android:layout_marginTop="16dp"
-        android:inputType="numberDecimal"/>
+        android:hint="@string/b"
+        android:inputType="numberDecimal"
+        android:padding="16dp" />
 
     <TextView
         android:id="@+id/results"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:hint="@string/results"
-        android:padding="16dp"
-        android:layout_marginTop="16dp"/>
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-    <Button
-        android:id="@+id/plus"
-        android:layout_width="62dp"
-        android:layout_height="62dp"
-        android:text="@string/plus"
-        android:padding="16dp"
-        android:layout_marginTop="16dp"
-        android:onClick="plusOnClick"/>
+        android:padding="16dp" />
 
-    <Button
-        android:id="@+id/minus"
-        android:layout_width="62dp"
-        android:layout_height="62dp"
-        android:text="@string/minus"
-        android:padding="16dp"
-        android:layout_marginTop="16dp"
-        android:onClick="minusOnClick"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/mult"
-        android:layout_width="62dp"
-        android:layout_height="62dp"
-        android:text="@string/mult"
-        android:padding="16dp"
-        android:layout_marginTop="16dp"
-        android:onClick="multOnClick"/>
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="16dp"
+            android:onClick="plusOnClick"
+            android:padding="16dp"
+            android:text="@string/plus" />
 
-    <Button
-        android:id="@+id/div"
-        android:layout_width="62dp"
-        android:layout_height="62dp"
-        android:text="@string/divide"
-        android:padding="16dp"
-        android:layout_marginTop="16dp"
-        android:onClick="divideOnClick"/>
-</LinearLayout>
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="16dp"
+            android:onClick="minusOnClick"
+            android:padding="16dp"
+            android:text="@string/minus" />
+
+        <Button
+            android:id="@+id/mult"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="16dp"
+            android:onClick="multOnClick"
+            android:padding="16dp"
+            android:text="@string/mult" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="16dp"
+            android:onClick="divideOnClick"
+            android:padding="16dp"
+            android:text="@string/divide" />
+    </LinearLayout>
 
 </LinearLayout>

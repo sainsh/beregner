@@ -26,26 +26,26 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void plusOnClick(View view) {
-        if (!TextUtils.isEmpty(mAEditText.getText())||!TextUtils.isEmpty(mBEditText.getText())) {
+        if (!TextUtils.isEmpty(mAEditText.getText()) || !TextUtils.isEmpty(mBEditText.getText())) {
             mResultsTextView.setText(String.valueOf(calc.plus(mAEditText.getText(), mBEditText.getText())));
         }
     }
 
     public void minusOnClick(View view) {
-        if (!TextUtils.isEmpty(mAEditText.getText())||!TextUtils.isEmpty(mBEditText.getText())) {
+        if (!TextUtils.isEmpty(mAEditText.getText()) || !TextUtils.isEmpty(mBEditText.getText())) {
             mResultsTextView.setText(String.valueOf(calc.minus(mAEditText.getText(), mBEditText.getText())));
         }
     }
 
     public void multOnClick(View view) {
-        if (!TextUtils.isEmpty(mAEditText.getText())||!TextUtils.isEmpty(mBEditText.getText())) {
+        if (!TextUtils.isEmpty(mAEditText.getText()) || !TextUtils.isEmpty(mBEditText.getText())) {
 
             mResultsTextView.setText(String.valueOf(calc.mult(mAEditText.getText(), mBEditText.getText())));
         }
     }
 
     public void divideOnClick(View view) {
-        if (!TextUtils.isEmpty(mAEditText.getText())||!TextUtils.isEmpty(mBEditText.getText())) {
+        if (!TextUtils.isEmpty(mAEditText.getText()) || !TextUtils.isEmpty(mBEditText.getText())) {
             mResultsTextView.setText(String.valueOf(calc.divide(mAEditText.getText(), mBEditText.getText())));
         }
 
